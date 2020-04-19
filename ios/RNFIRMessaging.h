@@ -6,7 +6,9 @@
 #import <FirebaseMessaging/FirebaseMessaging.h>
 #import <FirebaseInstanceID/FirebaseInstanceID.h>
 #else
-@import Firebase;
+@import FirebaseCore;
+@import FirebaseMessaging;
+@import FirebaseInstanceID;
 #endif
 
 #import <React/RCTEventEmitter.h>
